@@ -3,7 +3,7 @@
 ## Project Overview
 This project focuses on analyzing and predicting heart disease using machine learning techniques. The dataset used includes key medical parameters that help identify the risk of heart disease. The analysis involves data preprocessing, exploratory data analysis (EDA), forward and back propagation. 
 
-## 📂 Project Structure
+## Project Structure
 - **Heartdisease.ipynb** – Jupyter Notebook containing data analysis, visualization, and model-building steps.
 - **README.md** – Documentation for the project.
 
@@ -36,18 +36,16 @@ This project focuses on analyzing and predicting heart disease using machine lea
 - Exploratory Data Analysis (EDA) provides insights into the dataset.
 - Machine learning models are trained to predict heart disease risk.
 - Model evaluation metrics such as accuracy, precision, and recall are analyzed.
-- Used back propagation fr
 
- How Backpropagation Works in This Project
+How Backpropagation Works in This Project
 The model follows these key steps:
-
 1. Forward Propagation (Prediction Phase)
 Input features (e.g., Age, Cholesterol, Blood Pressure) are passed through the neural network.
 Each neuron applies a weighted sum function followed by an activation function (e.g., ReLU, Sigmoid).
 The network makes an initial prediction (ŷ = output).
 
 2. Compute Loss (Error Measurement)
-The difference between the predicted output (ŷ) and the actual label (y) is measured using a loss function (e.g., Binary Cross-Entropy for classification).
+The difference between the predicted output (ŷ) and the actual label (y) is measured using a loss function.
 
 3. Backward Propagation (Error Correction)
 The model computes the gradient of the loss function with respect to each weight using partial derivatives (via the chain rule in calculus).
